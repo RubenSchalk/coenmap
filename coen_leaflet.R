@@ -18,6 +18,10 @@ coordinates <- geocode(forms$Horecagelegenheid..naam..adresgegevens.en.website..
 
 forms <- cbind(forms, coordinates)
 
+# remove double entries
+
+forms <- forms[-12, ]
+
 # add Germany for Sandra's entry
 
 setDT(forms)
