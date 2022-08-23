@@ -1,9 +1,7 @@
----
-title: "Coen_map"
-author: "Ruben Schalk"
-date: '2022-08-16'
-output: html_document
----
+
+<p style="font-family: times, serif; font-size:14pt">
+    <b>Discover food and drinks around the world!</b>
+</p>
 
 
 ```{r message=FALSE, warning=FALSE, echo=FALSE}
