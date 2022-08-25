@@ -4,7 +4,6 @@
 
 library(data.table)
 library(leaflet)
-library(xlsx)
 library(RgoogleMaps)
 library(ggmap)
 library(shiny)
@@ -39,7 +38,7 @@ setwd("C:\\Users\\Schal107\\Documents\\UBU\\Coen_present")
 
 ### START HERE IF YOU ONLY WANT TO GENERATE THE MAP: ###
 
-forms <- fread("Coens_reisgids_full_geocoded.csv")
+forms <- fread("Coens_reisgids_full_geocoded_checked.csv")
 
 # remove multiple entries of one colleague and keep first 
 
